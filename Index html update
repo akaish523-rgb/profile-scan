@@ -23,9 +23,7 @@ body:after{content:"";position:fixed;inset:0;pointer-events:none;background:radi
 .big{font-size:clamp(13px,3.5vw,20px);font-weight:bold;margin-bottom:7px}
 .cursor{display:inline-block;width:8px;height:15px;background:#00ff66;vertical-align:-2px;animation:blink .7s infinite}
 @keyframes blink{50%{opacity:0}}
-@keyframes load{0%{width:0}100%{width:100%}}
-@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes load{0%{width:0}100%{widt
 @media(max-width:600px){.wrap{padding:9px}.log{height:58vh;padding:9px}}
 </style>
 </head>
